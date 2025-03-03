@@ -15,13 +15,11 @@ export const useAccountsStore = defineStore('accounts', () => {
 
     const loadAccounts = () => {
         const storedAccounts = localStorage.getItem('accounts')
-
         if (storedAccounts) {
             accounts.value = JSON.parse(storedAccounts)
         }
         isLoaded.value = true
     }
-
     loadAccounts()
 
     function addAccount() {

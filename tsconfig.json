@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "types": ["node"],
+    "types": ["node", "vuetify"],
     "useDefineForClassFields": true,
     "module": "ESNext",
     "moduleResolution": "Node",
